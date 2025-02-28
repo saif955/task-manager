@@ -1,10 +1,11 @@
+//desc: goal routes
 import express from 'express';
-import { getGoals, createGoal, updateGoal, deleteGoal } from '../controllers/goalController.js';
+import { getGoals, setGoal, updateGoal, deleteGoal } from '../controllers/goalController.js';
 const router = express.Router();
 
 router.get('/', getGoals);
   
-router.post('/', createGoal);
+router.post('/', setGoal);
 
 router.put('/:id', updateGoal);
 
