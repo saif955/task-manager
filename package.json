@@ -10,6 +10,7 @@
     "dev": "nodemon backend/server.js"
 
   },
+  "type": "module",
   "author": "Saifur",
   "license": "MIT",
   "dependencies": {
